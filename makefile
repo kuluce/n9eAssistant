@@ -1,9 +1,12 @@
 
-BINARY_NAME=Assistant
+BINARY_NAME=assistant
 clean:
 	@rm -rf bin
 	@mkdir bin
 
+build:
+	@echo "Building for local OS"
+	@make build_linux
 
 build_linux: clean
 	@echo "Building for Linux"

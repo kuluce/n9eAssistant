@@ -4,6 +4,7 @@ go 1.21.3
 
 require (
 	github.com/gogf/gf/v2 v2.5.4
+	github.com/spf13/cobra v1.7.0
 	github.com/toolkits/file v0.0.0-20160325033739-a5b3c5147e07
 )
 
@@ -12,8 +13,10 @@ require (
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
 	github.com/go-logr/logr v1.2.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
+	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.19 // indirect
+	github.com/spf13/pflag v1.0.5 // indirect
 	go.opentelemetry.io/otel v1.14.0 // indirect
 	go.opentelemetry.io/otel/sdk v1.14.0 // indirect
 	go.opentelemetry.io/otel/trace v1.14.0 // indirect
